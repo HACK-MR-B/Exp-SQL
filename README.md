@@ -18,18 +18,18 @@ Next, the user is asked to enter the path to the wordlist file (which contains a
 Once the input is provided, the tool scans each path in the wordlist file and sends an HTTP request to check if the endpoint exists or not.
 Valid paths (that get a 200 OK response) are displayed on the command line
 
-     sudo python3 Exp-SQL.py
+    sudo python3 Exp-SQL.py
 
     Please enter the IP address ==>> 192.168.100.1
 
-Please enter the path to your wordlist file ==>> /usr/share/wordlists/dirb/common.txt
+    Please enter the path to your wordlist file ==>> /usr/share/wordlists/dirb/common.txt
 
-  HACK Mr : B
+    HACK Mr : B
 
 The tool will start searching for valid paths and display the results:
 
      Found valid endpoints (200 OK):
      http://192.168.100.5/admin
-    http://192.168.100.5/login
+     http://192.168.100.5/login
 
 I wish you happy hacking
