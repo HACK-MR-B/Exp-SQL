@@ -20,7 +20,7 @@ Valid paths (that get a 200 OK response) are displayed on the command line
 
     sudo python3 Exp-SQL.py
 
-    Please enter the IP address ==>> 192.168.100.1
+    Please enter the IP address ==>> 192.168.100.5
 
     Please enter the path to your wordlist file ==>> /usr/share/wordlists/dirb/common.txt
 
